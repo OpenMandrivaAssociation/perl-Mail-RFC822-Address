@@ -13,7 +13,6 @@ Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/%{real_name}-%{versi
 URL:		http://search.cpan.org/dist/%{real_name}
 BuildArch:	noarch
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Mail::RFC822::Address validates email addresses against the grammar described
