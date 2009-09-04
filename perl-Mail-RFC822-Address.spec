@@ -1,7 +1,7 @@
 %define	real_name Mail-RFC822-Address
 %define	name	perl-%{real_name}
 %define	version	0.3
-%define	release %mkrel 6
+%define	release %mkrel 7
 
 Summary:	%{real_name} module for perl
 Name:		%{name}
