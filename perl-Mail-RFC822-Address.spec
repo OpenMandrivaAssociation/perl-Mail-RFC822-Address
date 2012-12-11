@@ -40,3 +40,38 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/*/*
 %{perl_vendorlib}/Mail/RFC822/Address.pm
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.3-7mdv2010.0
++ Revision: 430486
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.3-6mdv2009.0
++ Revision: 257708
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.3-5mdv2009.0
++ Revision: 245780
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.3-3mdv2008.1
++ Revision: 140691
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Sep 15 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.3-3mdv2008.0
++ Revision: 86529
+- rebuild
+
+
+* Wed May 03 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.3-2mdk
+- Fix According to perl Policy
+	- Source URL
+- use mkrel
+
+* Wed Jul 20 2005 Andreas Hasenack <andreas@mandriva.com> 0.3-1mdk
+- packaged for Mandriva
+
