@@ -5,11 +5,11 @@
 
 Summary:	%{real_name} module for perl
 Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Version:	%perl_convert_version 0.3
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/%{real_name}-%{version}.tar.gz
+Source:		ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Mail/Mail-RFC822-Address-0.3.tar.gz
 URL:		http://search.cpan.org/dist/%{real_name}
 BuildArch:	noarch
 BuildRequires:	perl-devel
@@ -67,11 +67,12 @@ rm -rf $RPM_BUILD_ROOT
 - rebuild
 
 
-* Wed May 03 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.3-2mdk
+* Wed May 03 2006 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.3-2mdk
 - Fix According to perl Policy
 	- Source URL
 - use mkrel
 
 * Wed Jul 20 2005 Andreas Hasenack <andreas@mandriva.com> 0.3-1mdk
 - packaged for Mandriva
+
 
