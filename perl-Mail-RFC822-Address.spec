@@ -17,7 +17,7 @@ Mail::RFC822::Address validates email addresses against the grammar described
 in RFC 822 using regular expressions.
 
 %prep
-%setup -q -n %{real_name}-%{version}
+%setup -q -n %{real_name}-%{upstream_version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
@@ -59,7 +59,7 @@ make test
 - rebuild
 
 
-* Wed May 03 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.3-2mdk
+* Wed May 03 2006 Nicolas LÃ©cureuil <neoclust@mandriva.org> 0.3-2mdk
 - Fix According to perl Policy
 	- Source URL
 - use mkrel
