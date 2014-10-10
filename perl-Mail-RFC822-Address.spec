@@ -4,7 +4,7 @@
 Summary:	%{real_name} module for perl
 Name:		perl-%{real_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	8
+Release:	9
 License:	GPL or Artistic
 Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/%{real_name}-%{upstream_version}.tar.gz
