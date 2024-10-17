@@ -8,7 +8,7 @@ Release:	10
 License:	GPL or Artistic
 Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/%{real_name}-%{upstream_version}.tar.gz
-URL:		http://search.cpan.org/dist/%{real_name}
+URL:		https://search.cpan.org/dist/%{real_name}
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
