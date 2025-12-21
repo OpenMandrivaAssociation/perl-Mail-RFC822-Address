@@ -10,6 +10,7 @@ Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/%{real_name}-%{upstream_version}.tar.gz
 URL:		https://search.cpan.org/dist/%{real_name}
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 
 %description
