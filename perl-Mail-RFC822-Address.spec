@@ -3,12 +3,12 @@
 
 Summary:	%{real_name} module for perl
 Name:		perl-%{real_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	10
+Version:	%{upstream_version}
+Release:	11
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/%{real_name}-%{upstream_version}.tar.gz
-URL:		https://search.cpan.org/dist/%{real_name}
+Source:		https://cpan.metacpan.org/authors/id/P/PD/PDWARREN/Mail-RFC822-Address-%{upstream_version}.tar.gz
+URL:		https://metacpan.org/dist/Mail-RFC822-Address
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
