@@ -1,13 +1,11 @@
 %define	real_name Mail-RFC822-Address
-%define	upstream_version	0.3
-
 Summary:	%{real_name} module for perl
 Name:		perl-%{real_name}
-Version:	%{upstream_version}
-Release:	11
+Version:	0.3
+Release:	12
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		https://cpan.metacpan.org/authors/id/P/PD/PDWARREN/Mail-RFC822-Address-%{upstream_version}.tar.gz
+Source:		https://cpan.metacpan.org/authors/id/P/PD/PDWARREN/Mail-RFC822-Address-%{version}.tar.gz
 URL:		https://metacpan.org/dist/Mail-RFC822-Address
 BuildArch:	noarch
 BuildRequires:	make
@@ -18,7 +16,7 @@ Mail::RFC822::Address validates email addresses against the grammar described
 in RFC 822 using regular expressions.
 
 %prep
-%setup -q -n %{real_name}-%{upstream_version}
+%setup -q -n %{real_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
