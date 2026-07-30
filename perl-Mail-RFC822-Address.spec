@@ -3,7 +3,7 @@
 Summary:	%{real_name} module for perl
 Name:		perl-%{real_name}
 Version:	0.3
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Perl
 Source:		https://cpan.metacpan.org/authors/id/P/PD/PDWARREN/Mail-RFC822-Address-%{version}.tar.gz
@@ -17,7 +17,7 @@ Mail::RFC822::Address validates email addresses against the grammar described
 in RFC 822 using regular expressions.
 
 %prep
-%setup -q -n %{real_name}-%{version}
+%setup -q -n Mail-RFC822-Address-0.3
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
